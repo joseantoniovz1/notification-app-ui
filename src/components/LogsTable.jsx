@@ -1,14 +1,10 @@
 import StatusBadge from "./StatusBadge";
 
-export default function LogsTable({ logs, onRefresh }) {
-  console.log(logs);
+export default function LogsTable({ logs }) {
   return (
     <div className="bg-white rounded-2xl shadow p-6">
       <div className="flex justify-between mb-4">
         <h2 className="text-2xl font-bold">Notification Logs</h2>
-        <button onClick={onRefresh} className="bg-gray-200 px-3 py-1 rounded">
-          Refresh
-        </button>
       </div>
 
       <table className="w-full">

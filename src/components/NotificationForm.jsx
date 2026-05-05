@@ -11,7 +11,7 @@ export default function NotificationsForm({ onSend, loading }) {
     }
 
     onSend({ category, message });
-    setCategory("");
+    setMessage("");
   };
 
   return (
